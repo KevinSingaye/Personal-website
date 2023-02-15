@@ -585,7 +585,7 @@ section {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    gap: 5rem;
     margin: 4rem 5vw;
     padding: 0;
     list-style-type: none;
@@ -687,6 +687,35 @@ section {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
+}
+
+.btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #353030;
+    padding: 10px 30px;
+    border: solid #000000 2px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition: 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    transition: 1000ms;
+    padding: 10px 50px;
+    transform: translateY(-0px);
+    background-color: #ffffff;
+    color: #000000;
+    border: solid 2px #1a1b1c;
 }
 
 
