@@ -536,8 +536,33 @@ section {
         height: auto;
     }
     #about .about-img img {
-        margin-left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         padding-bottom: 30px;
+    }
+    #about .about-title {
+        width: fit-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #about .about-img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 30px;
+    }
+    #about .about-title {
+        width: 100%;
+        margin-left: 50%;
     }
 }
 
@@ -549,9 +574,8 @@ section {
     color: #333;
     font-weight: 400;
     font-size: 28px;
-    text-align: center;
     padding-top: 90px;
-    padding-right: 160px;
+    text-align: center;
 }
 
 #about .about-text {
@@ -602,7 +626,7 @@ section {
 
 .card__image {
     width: 100%;
-    height: 250px;
+    height: 200px;
 }
 
 .card__overlay {
