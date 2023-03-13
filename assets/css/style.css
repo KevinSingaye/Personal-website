@@ -10,10 +10,12 @@
 # General
 --------------------------------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
-    background: #fff;
+    background: url(/assets/img/grunge-black-background-45129.jpg);
     color: #666666;
     font-family: "Open Sans", sans-serif;
+    background: rgba(0, 0, 0, 0.936);
 }
 
 a {
@@ -206,6 +208,172 @@ h6 {
 #hero .btn-services:hover {
     background: #03C4EB;
     border: 2px solid #03C4EB;
+}
+
+
+/*--------------------------------------------------------------
+# Slideshow
+--------------------------------------------------------------*/
+
+.slider-container {
+    background: url(/assets/img/grunge-black-background-45129.jpg);
+    background-size: cover;
+}
+
+.slider {
+    position: relative;
+    width: 800px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 750px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+}
+
+.slider .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(0% at 0 50%);
+}
+
+.slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+}
+
+.slider .slide img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .slide .info {
+    position: absolute;
+    color: #222;
+    background: rgba(255, 255, 255, 0.3);
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+}
+
+.slider .slide .info h2 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.slider .slide .info p {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.navigation {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider:hover .navigation {
+    opacity: 1;
+}
+
+.prev-btn,
+.next-btn {
+    z-index: 999;
+    font-size: 2em;
+    color: #222;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev-btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.next-btn {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.navigation-visibility {
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-visibility .slide-icon {
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.5);
+    width: 20px;
+    height: 10px;
+    transform: translateY(-50px);
+    margin: 0 6px;
+    border-radius: 2px;
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+}
+
+.navigation-visibility .slide-icon.active {
+    background: #4285F4;
+}
+
+@media (max-width: 900px) {
+    .slider {
+        width: 100%;
+    }
+    .slider .slide .info {
+        position: relative;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .slider .slide img {
+        height: auto;
+        object-fit: cover;
+    }
+    .slider .slide .info {
+        width: 70%;
+    }
+    .slider .slide .info h2 {
+        font-size: 25px;
+    }
+    .slider {
+        height: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .slider .slide img {
+        height: auto;
+        object-fit: cover;
+    }
+    .slider .slide .info {
+        height: 100px;
+        width: 200px;
+    }
+    .slider .slide .info h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .slider {
+        height: 200px;
+    }
 }
 
 
