@@ -1239,12 +1239,9 @@ section {
 # img slider
 --------------------------------------------------------------*/
 
-#sliderslider {
+.slider {
     background: rgba(0, 0, 0, 0.476);
     background-size: cover;
-}
-
-#sliderslider .slider {
     position: relative;
     width: 750px;
     height: 400px;
@@ -1359,7 +1356,7 @@ section {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    #sliderslider .slider {
+    .slider {
         width: 70%;
     }
     .slider .slide img {
@@ -1375,7 +1372,7 @@ section {
 }
 
 @media (max-width: 480px) {
-    #sliderslider .slider {
+    .slider {
         width: 70%;
     }
     .slider .slide img {
