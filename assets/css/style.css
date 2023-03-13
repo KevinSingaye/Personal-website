@@ -1239,9 +1239,12 @@ section {
 # img slider
 --------------------------------------------------------------*/
 
-.slider {
+#sliderslider {
     background: rgba(0, 0, 0, 0.476);
     background-size: cover;
+}
+
+#sliderslider .slider {
     position: relative;
     width: 750px;
     height: 400px;
@@ -1289,7 +1292,7 @@ section {
 .slider .slide .info h2 {
     font-size: 2em;
     font-weight: 700;
-    text-align: center;
+    margin-left: 50px;
 }
 
 #hero h2 {
@@ -1356,12 +1359,11 @@ section {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .slider {
+    #sliderslider .slider {
         width: 70%;
     }
     .slider .slide img {
         height: auto;
-        object-fit: cover;
     }
     .slider .slide .info {
         width: 70%;
@@ -1372,19 +1374,17 @@ section {
 }
 
 @media (max-width: 480px) {
-    .slider {
+    #sliderslider .slider {
         width: 70%;
     }
     .slider .slide img {
         height: auto;
-        object-fit: cover;
     }
     .slider .slide .info {
         height: 100px;
-        width: 200px;
     }
     .slider .slide .info h2 {
-        font-size: 1px;
-        font-weight: 700;
+        font-size: 2px;
+        font-weight: 800;
     }
 }
