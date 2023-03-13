@@ -1292,7 +1292,7 @@ section {
 .slider .slide .info h2 {
     font-size: 2em;
     font-weight: 700;
-    margin-left: 50px;
+    text-align: center;
 }
 
 #hero h2 {
@@ -1364,6 +1364,7 @@ section {
     }
     .slider .slide img {
         height: auto;
+        object-fit: cover;
     }
     .slider .slide .info {
         width: 70%;
@@ -1379,12 +1380,14 @@ section {
     }
     .slider .slide img {
         height: auto;
+        object-fit: cover;
     }
     .slider .slide .info {
         height: 100px;
+        width: 200px;
     }
     .slider .slide .info h2 {
-        font-size: 2px;
-        font-weight: 800;
+        font-size: 1px;
+        font-weight: 700;
     }
 }
