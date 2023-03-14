@@ -126,7 +126,7 @@ h6 {
 }
 
 #hero .hero-container {
-    background: rgba(0, 0, 0, 0.936);
+    background: rgba(0, 0, 0, 0.845);
     display: table-cell;
     margin: 0;
     padding: 0;
@@ -681,6 +681,15 @@ section {
     margin-bottom: 20px;
 }
 
+.mesCompetences {
+    margin-top: 70px;
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
 
 /* Get Started Section
 --------------------------------*/
@@ -752,6 +761,59 @@ section {
 
 #about .about-text:last-child {
     margin-bottom: 0;
+}
+
+.competenceContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+    margin-top: 15px;
+    font-family: 'raleway';
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+.wrapper h2 {
+    Color: #000000;
+}
+
+.bar {
+    position: relative;
+    width: 100%;
+    height: 24px;
+    background: rgba(7, 1, 1, 0.044);
+    margin-bottom: 2rem;
+    border-radius: 60px;
+}
+
+.bar-info {
+    border-radius: 60px;
+    padding-left: 10px;
+    color: white;
+    width: 10%;
+    background: #fd7473;
+    position: relative;
+    height: 24px;
+    transition: width 3.3s ease-in-out;
+    background: linear-gradient(#03C4EB, #050d2c), #03C4EB;
+}
+
+.percent {
+    float: right;
+    padding-right: 10px;
+}
+
+.cv {
+    width: 35%;
+}
+
+.cv img {
+    width: 80%;
 }
 
 
