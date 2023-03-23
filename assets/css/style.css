@@ -216,7 +216,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .slider-container {
-    background: url(/assets/img/grunge-black-background-45129.jpg);
+    background: url(../img/grunge-black-background-45129.jpg);
     background-size: cover;
 }
 
@@ -1472,7 +1472,7 @@ section {
  */
 
 .form-container {
-    background: url(assets/img/grunge-black-background-45129.jpg);
+    background: url(../img/grunge-black-background-45129.jpg);
     margin-bottom: 50px;
 }
 
