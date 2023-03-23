@@ -831,6 +831,12 @@ section {
     background: linear-gradient(#03C4EB, #050d2c), #03C4EB;
 }
 
+@media (max-width: 480px) {
+    .bar-info {
+        font-size: 11px;
+    }
+}
+
 .percent {
     float: right;
     padding-right: 10px;
@@ -1377,7 +1383,8 @@ section {
 /* Contact Section
 --------------------------------*/
 
-#contact {
+
+/* #contact {
     background: #f7f7f7;
     padding: 80px 0 120px 0;
 }
@@ -1461,6 +1468,49 @@ section {
 
 #contact .php-email-form button[type=submit]:hover {
     background: #25d8fc;
+}
+ */
+
+.form-container {
+    background: url(/assets/img/grunge-black-background-45129.jpg);
+    margin-bottom: 50px;
+}
+
+.form-container h1 {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+}
+
+.section-title-divider {
+    width: 50px;
+    height: 3px;
+    background: #03C4EB;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.form-row .col {
+    margin-bottom: 15px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group-message {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container button {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #03C4EB;
 }
 
 @-webkit-keyframes animate-loading {
