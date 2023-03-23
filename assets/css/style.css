@@ -836,12 +836,52 @@ section {
     padding-right: 10px;
 }
 
+@media (max-width: 480px) {
+    .percent {
+        float: right;
+        padding-right: 0px;
+    }
+}
+
 .cv {
     width: 35%;
 }
 
+.myButton {
+    background-color: #1b9abd;
+    border-radius: 28px;
+    border: 1px solid #003c4e;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #719fd1;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myButton:hover {
+    background-color: #53c6e6;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
     .cv {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .myButton {
+        font-size: 15px;
+        padding: 10px 15px;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
@@ -851,6 +891,12 @@ section {
     .cv {
         margin-left: auto;
         margin-right: auto;
+    }
+    .myButton {
+        font-size: 13px;
+        padding: 10px 15px;
+        text-align: center;
+        margin-right: 20px;
     }
 }
 
