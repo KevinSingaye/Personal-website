@@ -107,7 +107,7 @@ h6 {
     display: table;
     width: 100%;
     height: 100vh;
-    background: url(../img/grunge-black-background-45129.jpg);
+    background: url(../img/grunge2.jpg);
     background-size: cover;
 }
 
@@ -216,7 +216,7 @@ h6 {
 --------------------------------------------------------------*/
 
 .slider-container {
-    background: url(../img/grunge-black-background-45129.jpg);
+    background: url(../img/grunge2.jpg);
     background-size: cover;
 }
 
@@ -1472,7 +1472,7 @@ section {
  */
 
 .form-container {
-    background: url(../img/grunge-black-background-45129.jpg);
+    background: url(../img/grunge2.jpg);
     margin-bottom: 50px;
 }
 
@@ -1495,13 +1495,13 @@ h1 {
 
 .form-row .col {
     margin-bottom: 15px;
-    width: 30%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .form-group-message {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
