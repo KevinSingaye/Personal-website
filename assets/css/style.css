@@ -585,13 +585,15 @@ h6 {
     display: block;
     position: absolute;
     top: 55px;
-    right: 15px;
-    bottom: 15px;
+    right: 15rem;
+    bottom: 29rem;
     left: 15px;
+    background-color: white;
     padding: 10px 0;
-    background-color: #fff;
     overflow-y: auto;
     transition: 0.3s;
+    border: 5px solid #020446;
+    border-radius: 40px;
 }
 
 .navbar-mobile a,
@@ -922,7 +924,6 @@ section {
 
 #services {
     background: url(../img/Download\ From\ CBEditz.com\ -\ 2560x1600.jpg);
-    background-size: cover;
     padding: 80px 0 60px 0;
 }
 
