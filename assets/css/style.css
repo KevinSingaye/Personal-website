@@ -791,13 +791,12 @@ section {
 }
 
 .wrapper {
-    margin: 0 auto;
     width: 40%;
     height: 100%;
     margin-top: 15px;
     font-family: 'raleway';
     font-weight: 600;
-    margin-left: 5%;
+    margin-left: 30%;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -815,7 +814,7 @@ section {
 }
 
 .wrapper h2 {
-    Color: #000000;
+    Color: #ffffff;
 }
 
 .bar {
@@ -825,6 +824,8 @@ section {
     background: rgba(7, 1, 1, 0.044);
     margin-bottom: 2rem;
     border-radius: 60px;
+    display: flex;
+    flex-direction: row;
 }
 
 .bar-info {
@@ -837,6 +838,15 @@ section {
     height: 24px;
     transition: width 3.3s ease-in-out;
     background: linear-gradient(#03C4EB, #050d2c), #03C4EB;
+}
+
+.logo-bar {
+    margin-right: 5px;
+}
+
+.logo-bar img {
+    width: 26px;
+    height: 26px;
 }
 
 @media (max-width: 480px) {
