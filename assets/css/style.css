@@ -215,15 +215,13 @@ h6 {
 --------------------------------------------------------------*/
 
 .slider-container {
-    background: url(../img/Download\ From\ CBEditz.com\ -\ 2560x1600.jpg);
-    background-size: cover;
+    margin-bottom: 100px;
 }
 
 .slider {
     position: relative;
-    width: 800px;
+    width: 100%;
     margin: 20px;
-    overflow: hidden;
     border-radius: 10px;
     width: 750px;
     height: 400px;
@@ -248,23 +246,25 @@ h6 {
 }
 
 .slider .slide img {
-    position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 35px;
 }
 
 .slider .slide .info {
     position: absolute;
+    bottom: 15rem;
     color: #222;
     background: rgba(255, 255, 255, 0.3);
-    width: 75%;
+    width: 50%;
     margin-top: 50px;
     margin-left: 50px;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
     text-align: center;
+    display: none;
 }
 
 .slider .slide .info h2 {
@@ -336,8 +336,6 @@ h6 {
         width: 100%;
     }
     .slider .slide .info {
-        position: relative;
-        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -349,7 +347,6 @@ h6 {
         object-fit: cover;
     }
     .slider .slide .info {
-        width: 50%;
         height: 80px;
     }
     .slider .slide .info h2 {
