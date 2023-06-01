@@ -587,6 +587,8 @@ h6 {
     transition: 0.3s;
     border: 5px solid #020446;
     border-radius: 40px;
+    width: 13rem;
+    height: 16rem;
 }
 
 .navbar-mobile a,
