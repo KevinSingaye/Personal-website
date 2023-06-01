@@ -149,7 +149,7 @@ h6 {
 }
 
 #hero h2 {
-    color: #ccc;
+    color: #111010;
     margin-bottom: 50px;
 }
 
@@ -251,26 +251,24 @@ h6 {
     object-fit: cover;
     border-radius: 35px;
     -webkit-box-shadow: 5px 5px 15px 2px rgba(237, 237, 237, 0.4);
-    box-shadow: 10px 15px 20px 0px rgba(237, 237, 237, 0.4);
+    box-shadow: 25px rgba(237, 237, 237, 0.4);
 }
 
 .slider .slide .info {
-    position: absolute;
-    bottom: 15rem;
+    margin: 0 auto;
+    position: relative;
+    bottom: 50px;
     color: #222;
     background: rgba(255, 255, 255, 0.3);
-    width: 50%;
-    margin-top: 50px;
-    margin-left: 50px;
-    padding: 20px;
+    width: 30%;
+    padding: 5;
     border-radius: 5px;
     box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
     text-align: center;
-    display: none;
 }
 
 .slider .slide .info h2 {
-    font-size: 2em;
+    font-size: 20px;
     font-weight: 800;
 }
 
@@ -314,7 +312,7 @@ h6 {
 
 .navigation-visibility {
     z-index: 999;
-    display: flex;
+    display: none;
     justify-content: center;
 }
 
@@ -345,14 +343,10 @@ h6 {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .slider .slide img {
-        height: auto;
         object-fit: cover;
     }
-    .slider .slide .info {
-        height: 80px;
-    }
     .slider .slide .info h2 {
-        font-size: 25px;
+        font-size: 15px;
     }
     .slider {
         height: 100%;
@@ -365,11 +359,11 @@ h6 {
         object-fit: cover;
     }
     .slider .slide .info h2 {
-        font-size: 20px;
+        font-size: 3px;
         font-weight: 700;
     }
-    .slider {
-        height: 200px;
+    .slider .slide .info {
+        width: 40%;
     }
 }
 
