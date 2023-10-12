@@ -3,4 +3,4 @@ Voici mon site personnel regroupant mes différents projet de developpement web,
 
 Here is my website in which you will find my various web development projects, as well as my photographic portfolio.
 
-https://kevinsingaye.github.io/Personnal-Website/
+https://kevinsingaye.github.io/Personal-Website/
